@@ -1,0 +1,143 @@
+/* General Style */
+* {
+	margin: 0 0;
+}
+
+html {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+} 
+
+body {
+	
+
+}
+
+main {
+	margin-top: 64px;
+}
+
+/* Header */
+header {
+	background: red;
+	display: flex;
+	font-size: 18px;
+	height: 64px;
+	width: 100%;
+	position: static;
+
+	margin-top: 0;
+
+}
+
+.title {
+	display: flex;
+	size: 24px;
+
+}
+
+?
+.title #logo {
+	size: 50px 50px;
+}
+
+.header-text {
+	margin: auto 24px;
+}
+
+nav {
+	display: flex;
+	padding-right: 0;
+	align-items: center;
+	background: yellow;
+
+}
+
+nav ul {
+	background: blue;
+	
+
+}
+
+nav li {
+	display: inline-flex;
+	
+}
+
+/* First Block */
+#learn-something-new {
+	background: orange;
+	display: flex;
+	width: 100%;
+}
+
+#practicing-image {
+	padding: 32px 24px;
+	width: 50%;
+	height: auto;
+	border: 1px solid blue;
+	
+}
+
+#learn-something-new h2 {
+	font-size: 50px;
+}
+
+#learn-something-new p {
+	font-size: 25px;
+	margin-right: 20px;
+}
+
+#learn-something-new #button {
+	font-size: 25px;
+	margin: 20px auto;
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-weight: normal;
+	background: black;
+	padding: 8px 25px;
+	width: 60%;
+}
+
+.learn-paragraph {
+	width: 50%;
+	height: auto;
+	background: red;
+	margin: auto;
+	margin-right: 48px;
+	text-align: left;
+	line-height: 5 rem;
+}
+
+/* Second Block */
+.second-block {
+	display: flex;
+}
+
+#practicing {
+	background: yellow;
+}
+
+#articles {
+	background: green;
+}
+
+/* Third Block */
+#start-learning {
+	background: lightblue;
+	display: flex;
+}
+
+/* Fourth Block */
+#thesis-exhibit {
+	background: blue;
+	display: flex;
+}
+
+/* Fifth Block */
+footer {
+	background: violet;
+	display: flex;
+}
