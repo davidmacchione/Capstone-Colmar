@@ -8,8 +8,8 @@ html {
 	font-size: 12px;
 } 
 
-body {
-	
+body h2 {
+	font-size: 24px;
 
 }
 
@@ -118,10 +118,80 @@ nav li {
 
 #practicing {
 	background: yellow;
+	width: 60%;
+	height: auto;
 }
 
+#practicing img {
+	width: 90%;
+	height: auto;
+	margin: 32px 24px;
+}
+
+.practicing-text {
+	margin: 18px 32px 20px 24px;
+	height: auto;
+	background: blue;
+
+}
+
+.practicing-text h2 {
+	margin-bottom: 12px;
+	font-size: 3rem;
+}
+
+.practicing-text p {
+	font-size: 16px;
+	margin: 12px auto;
+	padding-right: 20px;
+}
+
+#author {
+	font-size: 24px;
+}
+
+/* -- */
 #articles {
 	background: green;
+	width: 40%;
+	height: auto;
+
+}
+
+.article {
+	display: flex;
+	justify-content: center;
+	background: grey;
+	padding: 16px;
+	margin-top: 16px;
+}
+
+.article img {
+	width: 35%;
+	height: auto;
+	display: inline-flex;
+}
+
+#article-paragraph {
+	width: 65%;
+	background: yellow;
+	margin: auto;
+	line-height: 2rem;
+	margin-left: 1rem;
+}
+
+#article-paragraph h3 {
+	font-size: 2rem;
+}
+
+#article-paragraph p {
+	margin: 8px auto;
+	font-size: 1.2rem;
+}
+
+#article-paragraph a {
+	font-size: 1.2rem;
+	text-decoration: none;
 }
 
 /* Third Block */
