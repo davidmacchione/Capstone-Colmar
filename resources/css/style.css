@@ -6,6 +6,9 @@
 html {
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 } 
 
 body h2 {
@@ -13,8 +16,10 @@ body h2 {
 
 }
 
+
+
 main {
-	margin-top: 64px;
+	
 }
 
 /* Header */
@@ -24,9 +29,10 @@ header {
 	font-size: 1.5rem;
 	height: 64px;
 	width: 100%;
-	position: static;
+	position: fixed;
 
-	margin-top: 0;
+
+	
 
 }
 
@@ -46,6 +52,8 @@ header {
 }
 
 nav {
+	margin-left: auto;
+	margin-right: 16px;
 	display: flex;
 	padding-right: 0;
 	align-items: center;
@@ -62,6 +70,7 @@ nav ul {
 
 nav li {
 	display: inline-flex;
+	padding: 16px;
 	
 }
 
@@ -101,6 +110,9 @@ nav li {
 	background: black;
 	padding: 8px 25px;
 	width: 60%;
+}
+#learn-something-new #button:hover {
+	color: yellow;
 }
 
 .learn-paragraph {
@@ -171,7 +183,7 @@ nav li {
 .article img {
 	width: 35%;
 	height: auto;
-	display: inline-flex;
+	
 }
 
 #article-paragraph {
@@ -247,13 +259,119 @@ nav li {
 }
 
 /* Fourth Block */
+
+#thesis-title {
+	margin: 32px auto;
+	text-align: center;
+}
+
 #thesis-exhibit {
 	background: blue;
 	display: flex;
+	width: 100%;
+
 }
 
+.video-player {
+	width: 60%;
+	height: auto;	
+	overflow: hidden;
+    background: red;
+
+}
+
+#video-text {
+	padding: 24px;
+	background: yellow;
+}
+
+#video-text h2 {
+
+}
+
+#video-text p {
+	margin-top: 16px;
+}
+
+.other {
+	width: 40%;
+	height: auto;
+	display: flex;
+	background: green;
+	padding-right: 16px;
+	flex-direction: column;
+
+}
+
+.other img {
+	width: 35%;
+	height: auto;
+	padding: 16px;
+}
+
+#Fisma {
+	display: flex;
+	size: 80%;
+	background: blue;
+}
+
+#other-text {
+	width: 65%;
+	flex-flow: flex column;
+	margin: auto;
+	margin-right: 10px;
+}
+
+.other h3 {
+	font-size: 1.8rem;
+}
+
+.other p {
+	margin-top: 16px;
+}
+
+#Now-and-then {
+	display: flex;
+	size: 80%;
+	background: violet;
+}
+
+video {
+	object-position: center;
+	display: block;
+	width: 90%;
+	margin: 0px 24px 24px 24px;
+}
+
+}
 /* Fifth Block */
 footer {
-	background: violet;
+	background: brown;
+
+	height: 5rem;
+	width: 100%;
 	display: flex;
+	padding: 32px;
+	bottom: 0;
+
+}
+
+#footer-text {
+	display: inline-flex;
+	margin-left: 24px;
+	margin-top: 16px;
+	margin-bottom: 3rem;
+	align-items: center;
+	background: violet;
+	width: auto;
+}
+
+h2 {
+	background: orange;
+}
+
+footer p {	
+	margin-right: 16px;
+	margin-left: auto;
+	background: blue;
 }
