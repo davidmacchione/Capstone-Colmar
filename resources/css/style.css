@@ -19,10 +19,12 @@ body h2 {
 
 
 main {
-	
+	margin-top: 64px;
 }
 
 /* Header */
+
+
 header {
 	background: red;
 	display: flex;
@@ -30,16 +32,11 @@ header {
 	height: 64px;
 	width: 100%;
 	position: fixed;
-
-
-	
-
 }
 
 .title {
 	display: flex;
 	size: 24px;
-
 }
 
 ?
@@ -58,20 +55,15 @@ nav {
 	padding-right: 0;
 	align-items: center;
 	background: yellow;
-
-
 }
 
 nav ul {
 	background: blue;
-	
-
 }
 
 nav li {
 	display: inline-flex;
-	padding: 16px;
-	
+	padding: 16px;	
 }
 
 /* First Block */
