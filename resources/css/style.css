@@ -9,28 +9,23 @@ html {
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	margin: 0;
-	
 	height: 100%;
 	padding: 0;
-	background-color: lightcoral;
+	background-color: lightblue;
 } 
 
-body h2 {
-	font-size: 24px;
-
+h2 {
+	font-size: 16px;
 }
-
-
 
 main {
 	top: 64px;
+	
 	position: relative;
 	padding: 0.5px;
-
 }
 
 /* Header */
-
 
 header {
 	background: red;
@@ -39,19 +34,21 @@ header {
 	height: 64px;
 	width: 100%;
 	position: fixed;
-
 	z-index: 10;
 }
 
 .title {
 	display: flex;
-	size: 24px;
+	height: auto;
+	background: green;
+	align-items: center;
 }
 
-?
-.title img {
-	height: 45px;
-	width: auto;
+
+header img {
+	background: blue;
+	z-index: 10;
+	height: 55px;
 }
 
 .header-text {
@@ -221,6 +218,7 @@ nav li {
 	background: red;
 	text-align: center;
 	padding: 16px;
+	padding-bottom: 1rem;
 }
 
 #start-learning h3 {
@@ -262,18 +260,22 @@ nav li {
 }
 
 /* Fourth Block */
-
-#thesis-title {
-	margin: 32px auto;
-	text-align: center;
+#thesis-exhibit {
+	background: orange;
+	
 }
 
-#thesis-exhibit {
+#thesis-wrapper {
 	background: blue;
 	display: flex;
 	width: 100%;
 	height: auto;
+}
 
+#thesis-title {
+	text-align: center;
+	padding: 16px;
+	padding-bottom: 1rem;
 }
 
 .video-player {
@@ -356,42 +358,47 @@ video {
 	margin: 0 auto;
 	background: blue;
 }
-
-}
 /* Fifth Block */
+
+
 footer {
-	
 	background: brown;
-	
-	height: 10rem;
+	height: 6rem;
 	width: 100%;
-	display: flex;
-	padding: 32px;
-	z-index: 10;
-	justify-content: space-between;
-	top: 16px;
-	margin-top: 32px;
+	z-index: 1;
+	position: relative;
+	margin-top: 5.3rem;
+	bottom: 0;
+	display: inline-flex;
+	align-items: center;
+	font-size: 1.5rem;
 }
 
 #footer-text {
-	display: inline-flex;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	margin: 16px;
+	background: green;
+	
 
-	margin-left: 24px;
-	top: 16px;
-	margin-bottom: 3rem;
-	align-items: center;
-	background: violet;
-	width: auto;
 }
 
 footer h2 {
 	background: orange;
-	font-size: 15px;
+	margin-left: 2rem;
 }
 
-footer p {	
-	margin-right: 16px;
+footer ul {	
+	align-items: center;
+	display: flex;
+	flex-direction: row;
 	margin-left: auto;
+	margin-right: 2rem;
 	background: blue;
+}
 
+footer li {
+	margin-left: 3rem;
+	list-style-type: none;
 }
